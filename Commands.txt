@@ -1,0 +1,17 @@
+To get the current execution policy, you can use:
+Get-ExecutionPolicy
+____________________________________________________________________________________
+To Set to Restricted
+Set-ExecutionPolicy Restricted
+
+Current User restricted
+Set-ExecutionPolicy Restricted -Scope CurrentUser
+_____________________________________________________________________________________
+Installing ps2exe
+
+Install-Module -Name ps2exe -Force -Scope CurrentUser
+______________________________________________________________________________________
+Conversion ps1 to exe
+
+ps2exe -inputFile "C:\Path\To\YourScript.ps1" -outputFile "C:\Path\To\YourExecutable.exe"
+__________________________________________________________________________________________
