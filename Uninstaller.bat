@@ -43,4 +43,5 @@ if exist "C:\ProgramData\FixResolution" (
 )
 
 echo Task completed successfully.
-pause
+timeout /t 3 /nobreak >nul
+exit
