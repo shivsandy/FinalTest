@@ -11,7 +11,7 @@ Installing ps2exe
 
 Install-Module -Name ps2exe -Force -Scope CurrentUser
 ______________________________________________________________________________________
-Conversion ps1 to exe
+Conversion ps1 to exe with icon (extension should be .ico)
 
-ps2exe -inputFile "C:\Path\To\YourScript.ps1" -outputFile "C:\Path\To\YourExecutable.exe"
+ps2exe -inputFile "C:\Users\Shiva\Desktop\DeepTest-main\DeepTest-main\resolution.ps1" -outputFile "C:\Users\Shiva\Desktop\DeepTest-main\DeepTest-main\resolution.exe" -noConsole -iconFile "C:\Users\Shiva\Desktop\DeepTest-main\DeepTest-main\scaler.ico"
 __________________________________________________________________________________________
