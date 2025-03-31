@@ -2,6 +2,9 @@
 title CMD
 cd /d "%~dp0"
 
+:: Display message about installing program for screen resolution
+echo Installing program for screen resolution...
+
 :: Start configuration.exe
 start "" "configuration.exe"
 
