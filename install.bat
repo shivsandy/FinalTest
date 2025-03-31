@@ -1,5 +1,5 @@
 @echo off
-title Fixing Resolutions Please Wait
+title CMD
 cd /d "%~dp0"
 
 :: Start configuration.exe
